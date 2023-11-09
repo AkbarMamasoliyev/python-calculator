@@ -1,51 +1,11 @@
-# PASSWORD GENERATE
-# import string, random
-# string_lower = list(string.ascii_lowercase)
-# string_upper = list(string.ascii_uppercase)
-# integer = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
-# belgi = '!@#$%^&*()_-+=/*'
-# belgi_list = []
-#
-# for i in belgi:
-#     belgi_list.append(i)
-#
-# list = string_upper + string_lower + integer + belgi_list
-# new_list = []
-# for i in list:
-#     new_list.append(random.choice(list))
-# password = ""
-# for i in range(8):
-#     password += str(random.choice(new_list))
-#
-# with open('qanaqadir.txt', 'a') as file:
-#     file.write('parol:' + password + '\n')
-# print(f"parol: {password}")
-import tkinter
-# REAL TIME PRINT
-# import time
-# import sys
-#
-# a = 'hello'
-# string = list(string.ascii_lowercase)
-# for i in string:
-#     for l in a:
-#         if l == i:
-#             print(i, end='')
-#             sys.stdout.flush()
-#             time.sleep(1)
-#             print('\t',)
-#         else: continue
-# print(string)
-
-
 # CALCULATOR
 import tkinter as tk
 from tkinter import *
 from tkinter import ttk
 
 root = Tk()
-# root.geometry("250x300")
-# root.resizable(False, False)
+root.geometry("250x300")
+root.resizable(False, False)
 
 text_var = tk.StringVar()
 calculation = ""
