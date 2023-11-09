@@ -4,8 +4,6 @@ from tkinter import *
 from tkinter import ttk
 
 root = Tk()
-root.geometry("250x300")
-root.resizable(False, False)
 
 text_var = tk.StringVar()
 calculation = ""
